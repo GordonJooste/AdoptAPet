@@ -59,4 +59,10 @@ const HomePage = () => {
           ))}
         </div>
       ) : (
-        <p className="prompt">No {type}s available for adoptio
+        <p className="prompt">No {type}s available for adoption now.</p>
+      )}
+    </div>
+  );
+};
+
+export default HomePage;

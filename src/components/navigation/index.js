@@ -44,4 +44,14 @@ const Navigation = () => {
                   className="nav-link"
                   activeClassName='nav-link-active'
                 >
-     
+                  {type.name}s
+                </NavLink>{' '}
+              </li>
+            ))
+          : 'Loading...'}
+      </ul>
+    </nav>
+  );
+};
+
+export default Navigation;
